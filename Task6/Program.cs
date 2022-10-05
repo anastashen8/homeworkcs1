@@ -6,7 +6,7 @@
 
 Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-if (num == (num / 2) * 2)
+if (num % 2 == 0)
 {
     Console.WriteLine(num + " четное");
 }
